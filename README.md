@@ -211,17 +211,6 @@ The simulator provides these relevant holding registers:
 
 **Configuration:** controller scripts use `127.0.0.1`, TCP port `5020`, and slave/device ID `1`. The simulator's own default port may differ, so explicitly specify `--port 5020`.
 
-## Demonstration assets
-
-To showcase the project, add screenshots you personally captured to `docs/images/`, such as:
-
-- The plug-and-produce cell layout.
-- Grade A HMI with live crane coordinates.
-- A loaded action sequence and named positions.
-- An example of Grade B production logging.
-
-Once added, embed them in this README with standard GitHub Markdown image links. No screenshots are supplied in this repository kit.
-
 ## Learning outcomes
 
 This project demonstrates practical work in **industrial communication, state-based control, sensor feedback, motion sequencing, GUI development, error checking, process coordination, and manufacturing-data logging**. It also illustrates the progression from scripted control to a more operator-focused automation system.
