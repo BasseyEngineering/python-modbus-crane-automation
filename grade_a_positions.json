@@ -1,0 +1,56 @@
+{
+  "positions": {
+    "Source 1": {
+      "x": 55,
+      "y": 200
+    },
+    "Source 1 Pickup": {
+      "x": 55,
+      "y": 82
+    },
+    "Source 2": {
+      "x": 158,
+      "y": 200
+    },
+    "Source 2 Pickup": {
+      "x": 158,
+      "y": 82
+    },
+    "Process 1": {
+      "x": 450,
+      "y": 200
+    },
+    "Process 1 Pickup": {
+      "x": 450,
+      "y": 82
+    },
+    "Process 2": {
+      "x": 650,
+      "y": 200
+    },
+    "Process 2 Pickup": {
+      "x": 650,
+      "y": 82
+    },
+    "Sink": {
+      "x": 945,
+      "y": 200
+    },
+    "Sink Release": {
+      "x": 945,
+      "y": 82
+    },
+    "Test Position": {
+      "x": 500,
+      "y": 150
+    },
+    "Move to Test": {
+      "x": 500,
+      "y": 200
+    },
+    "New position": {
+      "x": 945,
+      "y": 82
+    }
+  }
+}

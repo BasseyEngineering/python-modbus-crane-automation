@@ -1,0 +1,31 @@
+
+{
+  "actions": [
+    {"vacuum": 0},
+    {"setX": 500, "setY": 200},
+
+    {"setX": 55, "setY": 200},
+    {"setX": 55, "setY": 82},
+    {"vacuum": 1},
+    {"setX": 55, "setY": 200},
+
+    {"setX": 450, "setY": 200},
+    {"setX": 450, "setY": 120},
+    {"setX": 450, "setY": 82},
+    {"vacuum": 0},
+    {"setX": 450, "setY": 120},
+    {"setX": 450, "setY": 200},
+
+    {"setX": 450, "setY": 120},
+    {"setX": 450, "setY": 82},
+    {"vacuum": 1},
+    {"setX": 450, "setY": 120},
+    {"setX": 450, "setY": 200},
+
+    {"setX": 945, "setY": 200},
+    {"setX": 945, "setY": 120},
+    {"setX": 945, "setY": 82},
+    {"vacuum": 0},
+    {"setX": 945, "setY": 200}
+  ]
+}
