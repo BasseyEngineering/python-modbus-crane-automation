@@ -17,6 +17,33 @@ The controllers communicate with a local simulation through **Modbus TCP**. The 
 - **Operator interface:** manual crane controls, live position feedback, configurable named positions, editable sequences and production controls.
 - **Automatic generation support:** the extended simulator variant adds configurable part generation for testing; see the note on simulator availability below.
 
+
+## Project Demonstration
+
+### Automatic Production HMI
+![Automatic Production](screenshots/Grade_A_Automatic.png)
+
+The Grade A interface provides controls for
+monitoring and managing automatic crane operation.
+
+### Crane Simulation
+![Crane Simulator](screenshots/Crane_simulator.png)
+
+The simulation demonstrates crane movement and
+material handling using Modbus TCP communication.
+
+### Manual Control Interface
+![Manual Control](screenshots/Manual_control.png)
+
+Manual controls allow users to interact with
+the crane's positioning system.
+
+### Sequence Builder
+![Sequence Builder](screenshots/Sequence_builder.png)
+
+The sequence builder provides an interface for
+managing crane motion instructions.
+
 ## Technologies
 
 | Component | Technology |
