@@ -161,7 +161,7 @@ The following simulator files are **not distributed here** until permission is c
 1. Clone the repository and open it in a terminal:
 
    ```bash
-   git clone https://github.com/Charlesnd/python-modbus-crane-automation.git
+   git clone https://github.com/BasseyEngineering/python-modbus-crane-automation.git
    cd python-modbus-crane-automation
    ```
 
