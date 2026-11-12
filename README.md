@@ -16,7 +16,22 @@ The controllers communicate with a local simulation through **Modbus TCP**. The 
 - **Dual production paths:** process both Type 1 and Type 2 parts, with controller logic for different routes.
 - **Operator interface:** manual crane controls, live position feedback, configurable named positions, editable sequences and production controls.
 - **Automatic generation support:** the extended simulator variant adds configurable part generation for testing; see the note on simulator availability below.
+  
+## Engineering Contributions
 
+This project demonstrates the design and implementation of a Python-based automation controller for a simulated industrial material-handling system.
+
+Key contributions include:
+
+- **Industrial communication:** Implemented Modbus TCP communication between Python controllers and the crane simulation environment.
+- **Sensor-based automation:** Developed control workflows that respond to material availability, crane position, and processing-station feedback.
+- **Motion sequencing:** Implemented configurable JSON-based crane operations with defined travel heights, pickup positions, and delivery sequences.
+- **Multi-product handling:** Developed logic to coordinate two product types across different processing routes.
+- **Human–machine interface:** Built a Tkinter-based graphical interface for monitoring, manual crane operation, sequence management, and automatic-production control.
+- **Production traceability:** Incorporated CSV logging to record production events and operational information.
+- **System integration:** Combined graphical controls, Python automation logic, configuration files, and Modbus communication into an integrated simulation-based project.
+
+**Application areas:** Industrial automation, manufacturing systems, material handling, process monitoring, and human–machine interaction.
 
 ## Project Demonstration
 
@@ -110,19 +125,32 @@ The crane raises the gripper to a safe travel height before lateral movement, ap
 ## Repository structure
 
 ```text
-.
+
+## Repository Structure
+
+```text
+python-modbus-crane-automation/
+│
 ├── README.md
-├── GITHUB_REPOSITORY_DETAILS.md
 ├── requirements.txt
 ├── .gitignore
+│
 ├── grade_e_controller.py
 ├── grade_e_actions.json
 ├── grade_d_controller.py
 ├── grade_c_controller.py
 ├── grade_b_auto_controller.py
+│
 ├── grade_a_hmi.py
 ├── grade_a_positions.json
-└── grade_a_complete_sequence.json
+├── grade_a_complete_sequence.json
+│
+└── screenshots/
+    ├── Grade_A_Automatic.png
+    ├── Crane_simulator.png
+    ├── Manual_control.png
+    └── Sequence_builder.png
+
 ```
 
 The following simulator files are **not distributed here** until permission is confirmed:
