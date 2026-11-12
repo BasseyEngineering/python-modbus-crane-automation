@@ -122,9 +122,6 @@ The crane raises the gripper to a safe travel height before lateral movement, ap
 
 **Important:** run only one crane controller at a time. The HMI includes safeguards against concurrent manual and automatic operation, but this is an educational simulation and not a certified industrial safety system.
 
-## Repository structure
-
-```text
 
 ## Repository Structure
 
@@ -150,7 +147,6 @@ python-modbus-crane-automation/
     ├── Crane_simulator.png
     ├── Manual_control.png
     └── Sequence_builder.png
-
 ```
 
 The following simulator files are **not distributed here** until permission is confirmed:
